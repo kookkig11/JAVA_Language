@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="paneSignup" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="725.0" style="-fx-background-image: url('/Background/Page2.jpg');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CSregis.Curriculum.PageCurriculum">
+   <children>
+      <ImageView fitHeight="485.0" fitWidth="725.0">
+         <image>
+            <Image url="@../CS_Regis/src/Background/Page2.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="303.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sign Up">
+         <font>
+            <Font name="Hamurz Free Version" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="102.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First name:">
+         <font>
+            <Font name="Courier New" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name:">
+         <font>
+            <Font name="Courier New" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="102.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID:">
+         <font>
+            <Font name="Courier New" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font name="Courier New" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="firstnameTextfield" layoutX="235.0" layoutY="106.0" prefHeight="31.0" prefWidth="268.0">
+         <font>
+            <Font name="Courier New" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastnameTextfield" layoutX="235.0" layoutY="158.0" prefHeight="31.0" prefWidth="268.0">
+         <font>
+            <Font name="Courier New" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="StudentidTextfield" layoutX="235.0" layoutY="211.0" prefHeight="31.0" prefWidth="268.0">
+         <font>
+            <Font name="Courier New" size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="createAccountBotton" layoutX="369.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleCreateAccountButtonClick" style="-fx-background-color: #92a4c0;" text="create my account" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextfield" layoutX="235.0" layoutY="264.0" prefHeight="31.0" prefWidth="268.0">
+         <font>
+            <Font name="Courier New" size="16.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="cancelButton" layoutX="554.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleCancelButtonClick" prefHeight="30.0" prefWidth="76.0" style="-fx-background-color: red;" text="cancel" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

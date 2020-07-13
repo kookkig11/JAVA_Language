@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-05T16:16:44.510986800Z</date>
+  <millis>1536164204510</millis>
+  <nanos>986800</nanos>
+  <sequence>0</sequence>
+  <logger>DemoLog</logger>
+  <level>WARNING</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Nothing happen</message>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.575813400Z</date>
+  <millis>1536164204575</millis>
+  <nanos>813400</nanos>
+  <sequence>1</sequence>
+  <logger>DemoLog</logger>
+  <level>WARNING</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Warning is back</message>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.576811100Z</date>
+  <millis>1536164204576</millis>
+  <nanos>811100</nanos>
+  <sequence>2</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>70-1</message>
+  <exception>
+    <message>java.io.IOException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>ioBombing</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>117</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.578805900Z</date>
+  <millis>1536164204578</millis>
+  <nanos>805900</nanos>
+  <sequence>3</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>80-2</message>
+  <exception>
+    <message>java.io.IOException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>ioBombing</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.580801400Z</date>
+  <millis>1536164204580</millis>
+  <nanos>801400</nanos>
+  <sequence>4</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>90-1</message>
+  <exception>
+    <message>java.io.IOException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>ioBombing</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>146</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.581797300Z</date>
+  <millis>1536164204581</millis>
+  <nanos>797300</nanos>
+  <sequence>5</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>100-1</message>
+  <exception>
+    <message>java.io.IOException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>ioBombing</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>161</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.582794700Z</date>
+  <millis>1536164204582</millis>
+  <nanos>794700</nanos>
+  <sequence>6</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>110-2</message>
+  <exception>
+    <message>java.lang.RuntimeException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>bombRunner</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>176</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.583793900Z</date>
+  <millis>1536164204583</millis>
+  <nanos>793900</nanos>
+  <sequence>7</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>120-1</message>
+  <exception>
+    <message>java.io.IOException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>ioBombing</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>194</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-09-05T16:16:44.585789Z</date>
+  <millis>1536164204585</millis>
+  <nanos>789000</nanos>
+  <sequence>8</sequence>
+  <logger>DemoLog</logger>
+  <level>SEVERE</level>
+  <class>excep.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>120-2</message>
+  <exception>
+    <message>java.lang.RuntimeException</message>
+    <frame>
+      <class>excep.ExceptionThrower</class>
+      <method>bombRunner</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>excep.Main</class>
+      <method>main</method>
+      <line>198</line>
+    </frame>
+  </exception>
+</record>
+</log>

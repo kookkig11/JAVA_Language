@@ -1,0 +1,5 @@
+cat/Noun/A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws./I listen to the screams of drunks outside as they mix with the jazz of the cats on stage.
+game/Noun/An activity that one engages in for amusement or fun./You shall be of good behaviour toward the game of swans.
+literate/Adjective/Able to read and write./The man was barely literate and took a long time to write his name.
+mind/Noun/The part of a person that makes it possible for him or her to think, feel emotions, and understand things./I just said the first thing that came into my mind.
+think/Verb/Have a particular belief or idea./She thought that nothing would be the same again.
